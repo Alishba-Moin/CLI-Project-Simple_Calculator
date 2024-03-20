@@ -4,12 +4,12 @@ import inquirer from "inquirer";
 
 const answer = await inquirer.prompt([
   {
-    message: "Enter your first number",
+    message: "Enter a first number",
     type: "number",
     name: "FirstNumber",
   },
   {
-    message: "Enter your second number",
+    message: "Enter a second number",
     type: "number",
     name: "SecondNumber",
   },
